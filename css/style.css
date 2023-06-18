@@ -1,0 +1,100 @@
+font family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font family end*/
+/*common start*/
+body{
+	font-family:'Poppins', sans-serif;
+	font-size:16px ;
+	font-weight:400 ;
+	color:#000000;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 15px 0;
+    background: #F0FFF0;
+;
+}
+.cnav{}
+.logo{
+	width: 200px;
+}
+.ntgl:focus { 
+	box-shadow: none;
+}
+.menu{}
+.menu ul li a{
+	padding: 0 25px !important ;
+	color: #000000 !important;
+	line-height: 24px;
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+.btn_s{
+	margin-left: 10px;
+	width: 105px;
+	height: 45px;
+}
+.btn_c{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  border: 0;
+  background:#21B573;
+  border-radius: 33px;
+  font-family:'Roboto', sans-serif;
+ 
+  color: #FFFFFF;
+  line-height: 19px;
+}
+.btn_c:hover{
+	background: #FD511A  ; 
+	color: #FFFFFF ;
+}
+.btn_c:active{
+	background: #FD511A!important  ; 
+	color: #FFFFFF!important ;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding-bottom: 65px;
+	 background: #F0FFF0;
+}
+
+.b_text
+.bp1{
+	color: #FD511A;
+    line-height: 24px;
+}
+.bh1{
+	margin: 10px 0 20px;
+	padding: 0 100px 0 0;
+	font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    line-height: 70px;
+}
+.bh1 span{
+
+	color:#21B573;
+}
+.bp2{
+	padding: 0 120px 0 0;
+	line-height: 36px;
+}
+
+.btn_link{
+	margin-top: 15px;
+	width: 155px;
+   height: 45px;
+}
+
+.b_img
+.b_img img{ width: 100%; }
+/*banner end
+/*features start*/
+
+/*features end*/
